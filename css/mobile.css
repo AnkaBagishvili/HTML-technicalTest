@@ -1,0 +1,46 @@
+/* 320-480px */
+@media(max-width:423px) {
+    .tab2 {
+        padding: 10px 50px;
+    }
+
+    .t423px {
+        padding: 10px 54px;
+    }
+
+    .arrow_div:before {
+        left: 180px;
+    }
+}
+
+@media(max-width:405px) {
+    .tablink {
+        width: 49%;
+        font-size: 13px;
+    }
+
+    .tab_container,
+    .section3 {
+        padding: 30px 10px;
+    }
+}
+
+@media(max-width:393px) {
+    .price_buttons {
+        padding: 10px 30px;
+    }
+
+    .pad_680 {
+        padding: 10px 32.5px;
+    }
+
+    .t393px {
+        padding: 10px 32px;
+    }
+}
+
+@media(max-width:340px) {
+    .arrow_div:before {
+        left: 130px;
+    }
+}

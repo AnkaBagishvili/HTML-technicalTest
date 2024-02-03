@@ -1,0 +1,63 @@
+/* 769-1399px */
+
+@media(max-width:1400px) {
+    .price_buttons {
+        padding: 10px 65px;
+    }
+}
+
+@media(max-width:1280px) {
+    .price_buttons {
+        padding: 10px 55px;
+    }
+
+    .arrow_div:before {
+        left: 1050px;
+    }
+}
+
+@media(max-width:1160px) {
+    .price_buttons {
+        padding: 10px 45px;
+    }
+
+    .arrow_div:before {
+        left: 1000px;
+    }
+}
+
+@media(max-width:1140px) {
+    .price_buttons {
+        padding: 10px 35px;
+    }
+
+    .arrow_div:before {
+        left: 850px;
+    }
+}
+
+@media(max-width:920px) {
+    .price_buttons {
+        padding: 10px 25px;
+    }
+
+    .arrow_div:before {
+        left: 700px;
+    }
+
+    .prices,
+    .box1 {
+        display: flex;
+        column-gap: 5px;
+    }
+}
+
+@media(max-width:780px) {
+    .price_buttons {
+        padding: 10px 15px;
+    }
+
+    .arrow_div:before {
+        left: 600px;
+    }
+}

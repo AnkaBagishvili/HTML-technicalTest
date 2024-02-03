@@ -1,0 +1,143 @@
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+    padding-top: 100px;
+}
+
+/* Section1 */
+.tablink {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+/* Section2 */
+.section2 {
+    border: 1px solid rgb(146, 143, 154);
+}
+
+.tab_container {
+    padding: 40px 20px;
+}
+
+.section2_title,
+.section3_title {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.donation_container {
+    display: flex;
+    padding: 25px 0;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.prices {
+    display: flex;
+    column-gap: 10px;
+}
+
+.box1 {
+    display: flex;
+    column-gap: 10px;
+}
+
+.price_buttons {
+    background-color: lightgray;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 10px 75px;
+    border: 1px solid darkgray;
+}
+
+.bc_active {
+    background-color: white;
+}
+
+.active {
+    background-color: orange;
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.section2_text {
+    background-color: rgb(243, 171, 37);
+    padding: 15px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/* Section3 */
+.section3,
+.section3_tab2 {
+    border: 1px solid gainsboro;
+    background-color: gainsboro;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.section3_text {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.section3_title {
+    text-decoration: underline;
+}
+
+.minitext {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    margin-left: auto;
+}
+
+.logo_content {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+
+
+/* Hovers */
+
+.tablink:hover {
+    background-color: white;
+    color: #103473;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+.price_buttons:active {
+    text-shadow: 1px 1px 1px black;
+}
+
+.arrow_div:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid white;
+    border-right: 10px solid rgb(255, 255, 255);
+    border-bottom: 15px solid rgb(243, 171, 37);
+    position: relative;
+    top: -15px;
+    left: 1150px;
+}

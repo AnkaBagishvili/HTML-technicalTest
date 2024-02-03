@@ -1,0 +1,45 @@
+/* 481-768px */
+@media(max-width:680px) {
+
+    .donation_container,
+    .prices {
+        flex-direction: column;
+        row-gap: 10px;
+        column-gap: 0;
+    }
+
+    .price_buttons {
+        padding: 10px 75px;
+    }
+
+    .box1 {
+        column-gap: 7px;
+    }
+
+    .pad_680 {
+        padding: 10px 77px;
+    }
+
+    .active {
+        padding: 1.3% 17%;
+    }
+
+    .section2_text {
+        font-size: 15px;
+    }
+
+    .section3,
+    .section3_text {
+        flex-direction: column-reverse;
+        row-gap: 10px;
+        text-align: center;
+    }
+
+    .t680px {
+        padding: 10px 75px;
+    }
+
+    .arrow_div:before {
+        left: 310px;
+    }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/cd654bc798.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/laptop.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Section1 -->
+        <section class="section1">
+            <a href="tab1.html"><button class="tablink active_tab" onclick="openPage('DonateMonthly', this)">Donate
+                    monthly</button></a>
+            <a href="tab2.html"><button class="tablink" onclick="openPage('DonateMonthly', this)">Donate
+                    once</button></a>
+        </section>
+
+        <!-- Section2 -->
+        <section class="section2">
+            <div class="tab_container">
+                <h3 class="section2_title">I would like to make a one-off donation of</h3>
+                <div class="donation_container">
+                    <div class="prices">
+                        <div class="box1">
+                            <button class="price_buttons pad_680 tab2 t680px"><i class="fa-solid fa-lira-sign lira"></i>
+                                10</button>
+                            <button class="price_buttons pad_680 tab2 t423px"><i class="fa-solid fa-lira-sign lira"></i>
+                                40</button>
+                        </div>
+                        <div class="box1">
+                            <button class="price_buttons tab2 t393px"><i class="fa-solid fa-lira-sign lira"></i>
+                                75</button>
+                            <button class="price_buttons tab2"><i class="fa-solid fa-lira-sign lira"></i> 100</button>
+                        </div>
+                        <button class="price_buttons bc_active"><i class="fa-solid fa-lira-sign lira"></i> Other
+                            amount</button>
+                    </div>
+                    <button class="price_buttons active"><i class="fa-solid fa-lira-sign lira "></i> Donate 40
+                        today <img class="lock" src="images/lock.svg" alt="lock"></button>
+                </div>
+
+                <div class="arrow_div"></div>
+                <p class="section2_text"><i class="fa-solid fa-lira-sign "></i> 40 Could help answer an Animal
+                    Rescue Team take on an urgent animal rescue </p>
+            </div>
+
+            <!-- Section3 -->
+            <section class="section3">
+                <div class="section3_text">
+                    <a href="Tab1.html">
+                        <h3 class="section3_title">I would like to make a one-off donation</h3>
+                    </a>
+                </div>
+                <div class="logo_content">
+                    <img src="images/visa-logo.png" alt="visa-logo">
+                    <img src="images/mastercard-logo.png" alt="mastercard-logo">
+                    <img src="images/paypal-logo.png" alt="paypal-logo">
+                    <img src="images/fundraising-regulator-logo.png" alt="fundraising-regulator-logo">
+                </div>
+            </section>
+        </section>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
