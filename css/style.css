@@ -141,3 +141,7 @@
     top: -15px;
     left: 1150px;
 }
+.active_tab{
+    background-color: white;
+    color: darkblue;
+}
